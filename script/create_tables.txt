@@ -1,0 +1,8 @@
+CREATE TABLE `skb_stat`.`stats` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `type` INT NOT NULL,
+  `title` VARCHAR(128) NULL,
+  `user` VARCHAR(128) NULL,
+  `deviceinfo` VARCHAR(128) NULL,
+  `details` VARCHAR(256) NULL,
+  PRIMARY KEY (`id`));
